@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+html {
+  font-size: 22px;
+}
+
+body {
+  overflow-y: scroll !important;
+  background: #0a0a0a;
+}
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.flicker {
+  animation: flicker 3s infinite;
+  font-size: 3.5rem;
+  letter-spacing: 4px;
+  color: #00ff41;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
+@keyframes flicker {
+  0%   { opacity: 1; text-shadow: 0 0 8px #00ff41, 0 0 20px #00ff41; }
+  5%   { opacity: 0.3; text-shadow: none; }
+  6%   { opacity: 1; text-shadow: 0 0 8px #00ff41, 0 0 20px #00ff41; }
+  10%  { opacity: 0.8; text-shadow: 0 0 4px #00ff41; }
+  11%  { opacity: 0.2; text-shadow: none; }
+  12%  { opacity: 1; text-shadow: 0 0 8px #00ff41, 0 0 20px #00ff41; }
+  50%  { opacity: 1; text-shadow: 0 0 8px #00ff41, 0 0 20px #00ff41; }
+  80%  { opacity: 0.9; text-shadow: 0 0 6px #00ff41; }
+  81%  { opacity: 0.1; text-shadow: none; }
+  82%  { opacity: 1; text-shadow: 0 0 8px #00ff41, 0 0 20px #00ff41; }
+  100% { opacity: 1; text-shadow: 0 0 8px #00ff41, 0 0 20px #00ff41; }
+}

@@ -61,7 +61,7 @@ export default function Home() {
 
         <section style={{ border: '1px solid #00ff41', padding: '2rem' }}>
           <p style={{ fontSize: '15px', color: '#00ff4188', marginBottom: '12px' }}>&gt; PROFILE.EXE</p>
-          <h1 style={{ fontSize: '3.5rem', letterSpacing: '4px', animation: 'flicker 3s infinite' }}>NAGY JÁNOS</h1>
+          <h1 style={{ fontSize: '3.5rem', letterSpacing: '4px', animation: 'flicker 3s infinite' }}>JÁNOS NAGY</h1>
           <p style={{ color: '#00cc33', letterSpacing: '2px', marginTop: '8px', fontSize: '18px' }}>&gt; FULL STACK DEVELOPER / SOFTWARE ENGINEER_</p>
           <div style={{ display: 'flex', gap: '1rem', marginTop: '1.5rem', flexWrap: 'wrap' }}>
             {['● OPEN TO WORK', '● HUNGARY', '● REMOTE OK', '● JUNIOR → MID'].map(b => (
@@ -141,19 +141,26 @@ export default function Home() {
         </section>
 
         <section ref={projectsRef} style={{ scrollMarginTop: '60px' }}>
-          <p style={{ fontSize: '15px', color: '#00ff4177', marginBottom: '1.5rem', letterSpacing: '2px' }}>&gt; PROJECTS.DIR</p>
-          <div style={{ border: '1px solid #00ff4133', borderRadius: '8px', padding: '2rem' }}>
-            <p style={{ color: '#00ff41', fontSize: '22px' }}>EzLearnApp</p>
-            <p style={{ color: '#00ff99', fontSize: '17px', marginTop: '10px', lineHeight: '1.8' }}>
-              Android productivity app using the Pomodoro technique. Task management, notifications, and timed study sessions.
-            </p>
-            <div style={{ display: 'flex', gap: '8px', marginTop: '1rem', flexWrap: 'wrap' }}>
-              {['Android', 'Java', 'Firebase'].map(t => (
-                <span key={t} style={{ background: '#00ff4111', border: '1px solid #00ff4144', padding: '4px 14px', fontSize: '15px', color: '#00ff41' }}>{t}</span>
-              ))}
-            </div>
-          </div>
-        </section>
+  <p style={{ fontSize: '15px', color: '#00ff4177', marginBottom: '1.5rem', letterSpacing: '2px' }}>&gt; PROJECTS.DIR</p>
+  <div style={{ border: '1px solid #00ff4133', borderRadius: '8px', padding: '2rem' }}>
+    <p style={{ color: '#00ff41', fontSize: '22px' }}>EzLearnApp</p>
+    <div style={{ display: 'flex', gap: '2rem', marginTop: '1rem', alignItems: 'flex-start' }}>
+      <div style={{ flex: 1 }}>
+        <p style={{ color: '#00ff99', fontSize: '17px', lineHeight: '1.8' }}>
+          EzLearnApp is an Android application designed to boost study efficiency using the Pomodoro technique. It allows users to manage tasks, receive notifications, and stay focused with timed study sessions.
+        </p>
+        <div style={{ display: 'flex', gap: '8px', marginTop: '1rem', flexWrap: 'wrap' }}>
+          {['Android', 'Java', 'Firebase'].map(t => (
+            <span key={t} style={{ background: '#00ff4111', border: '1px solid #00ff4144', padding: '4px 14px', fontSize: '15px', color: '#00ff41' }}>{t}</span>
+          ))}
+        </div>
+      </div>
+      <div style={{ width: '160px', border: '1px solid #00ff4133', flexShrink: 0, overflow: 'hidden', marginRight: '1rem', marginTop: '-0.5rem' }}>
+  <img src="/projects/pomodoro.png" alt="EzLearnApp" style={{ width: '100%', height: 'auto', display: 'block' }} />
+</div>
+    </div>
+  </div>
+</section>
 
         <section style={{ scrollMarginTop: '60px' }}>
           <p style={{ fontSize: '15px', color: '#00ff4177', marginBottom: '1.5rem', letterSpacing: '2px' }}>&gt; CERTIFICATIONS.TXT</p>

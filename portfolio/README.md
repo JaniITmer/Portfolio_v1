@@ -1,36 +1,85 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 💻 János Nagy — Developer Portfolio v1
 
-## Getting Started
+> A terminal-themed personal portfolio built with **Next.js** and **TypeScript**, designed to make a strong first impression as a Full Stack Developer.
 
-First, run the development server:
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Site-brightgreen?style=for-the-badge&logo=vercel)](https://your-vercel-url.vercel.app)
+[![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-blue?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
+
+---
+
+## 🖥️ Live Preview
+
+**→ [your-vercel-url.vercel.app](https://portfolio-v1-o8j3.vercel.app/)**
+
+A retro terminal-style UI with smooth scroll navigation, a downloadable CV, and sections covering my background, skills, experience, education, projects, and contact info.
+
+---
+
+## 🛠️ Tech Stack
+
+| Category | Technology |
+|---|---|
+| Framework | Next.js 15 (App Router) |
+| Language | TypeScript |
+| Styling | Inline styles / CSS (terminal aesthetic) |
+| Deployment | Vercel |
+
+---
+
+## 📋 Sections
+
+- **Profile** — Who I am & current status (Open to Work, Remote OK)
+- **About** — Background and internship experience
+- **Skills** — Backend, Frontend, Databases & Tools
+- **Experience** — Dynix Software Kft. internship (MS Dynamics 365)
+- **Education** — BSc Computer Science + Certified Software Developer
+- **Projects** — EzLearnApp (Android, Java, Firebase)
+- **Certifications** — Foundational C# with Microsoft, AI Agents Fundamentals
+- **Contact** — Email, phone, GitHub, LinkedIn
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js `v18+`
+- npm
+
+### Run Locally
 
 ```bash
+# Clone the repo
+git clone https://github.com/JaniITmer/Portfolio_v1.git
+
+# Go to the project folder
+cd Portfolio_v1/portfolio
+
+# Install dependencies
+npm install
+
+# Start the dev server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 👤 About Me
 
-## Learn More
+I'm **János Nagy**, a Full Stack Developer based in Hungary, with a BSc in Computer Software Engineering from Eszterházy Károly Catholic University. I have hands-on experience with Microsoft Dynamics 365 Business Central from my internship at Dynix Software Kft., and I'm actively looking for Junior → Mid level opportunities.
 
-To learn more about Next.js, take a look at the following resources:
+**My stack includes:** C#, Java, Python, Node.js, React, Next.js, TypeScript, MySQL, Docker, Git, Firebase, MS Dynamics 365
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- 📧 nagyjanos9919@gmail.com
+- 📞 +36 30 568 1161
+- 💼 [linkedin.com/in/itjanosnagy](https://linkedin.com/in/itjanosnagy)
+- 🐙 [github.com/JaniITmer](https://github.com/JaniITmer)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 📄 License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is open source — feel free to draw inspiration, just don't copy it wholesale. 😄
